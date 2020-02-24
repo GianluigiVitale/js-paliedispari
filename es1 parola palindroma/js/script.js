@@ -7,7 +7,7 @@ Scopo del gioco: Una funzione per capire se la parola è palindroma
 //
 var parola = prompt('Inserisci una parola per scoprire se e\' palindroma');  // prompt per chiedere parola
 
-var parolaVerifica = revert(parola);
+var parolaVerifica = revert(parola);                                    // a 'parolaVerifica' attribuisco la funzione
 
 function revert(parola) {
     var parolaReversed = '';
