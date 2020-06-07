@@ -27,10 +27,21 @@ function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
 
-var sommaRandomNumberAndInput = numero + randomNumber
+var sommaRandomNumberAndInput = numero + randomNumber;
 
-if (pariODispariLowerCase sommaRandomNumberAndInput ) {
-
+if (pari) {
+    console.log('pari');
+} else {
+    console.log('dispari');
+}
+console.log(numero + ' :numero utente');
+console.log(randomNumber + ' :numero pc');
+if (sommaRandomNumberAndInput % 2 == 0 && pari === true) {
+    console.log('hai vinto');
+} else if (sommaRandomNumberAndInput % 2 == 1 && dispari === true) {
+    console.log('hai vinto');
+} else {
+    console.log('vince il computer');
 }
 
 
